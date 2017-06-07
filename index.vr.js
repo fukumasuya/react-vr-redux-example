@@ -84,18 +84,22 @@ const styles = {
 
 const buttonData = [
   {
+    id: "tokyo",
     text: "Tokyo",
     keyword: "tokyo"
   },
   {
+    id: "kyoto",
     text: "Kyoto",
-    keyword: "Kyoto"
+    keyword: "kyoto"
   },
   {
+    id: "newyork",
     text: "New York",
     keyword: "new york"
   },
   {
+    id: "paris",
     text: "Paris",
     keyword: "paris"
   }
@@ -103,9 +107,9 @@ const buttonData = [
 
 // VR components
 const ButtonList = ({ buttonData, onClick }) =>
-  buttonData.map((data, index) =>
+  buttonData.map(data =>
     <VrButton
-      key={`button_${index}`}
+      key={`button_${data.id}`}
       style={styles.button}
       onClick={() => onClick(data)}
     >
