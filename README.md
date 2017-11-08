@@ -13,6 +13,8 @@ All you need to see is in index.vr.js. Reducer, Action Creator, Store, React VR 
 
 This project is created by using [react-vr](https://github.com/facebook/react-vr) CLI. So you can see the detail information of the example by checking the project.
 
+test
+
 ## Screen shots
 ![Tokyo Screen Shot](screen-shots/tokyo.png)
 
