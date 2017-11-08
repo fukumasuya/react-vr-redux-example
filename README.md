@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/fukumasuya/react-vr-redux-example.svg?style=svg)](https://circleci.com/gh/fukumasuya/react-vr-redux-example)
+
 React VR + Redux example
 ====
 
@@ -10,8 +12,6 @@ You can use React VR in the same manner as React. Many React applications choose
 All you need to see is in index.vr.js. Reducer, Action Creator, Store, React VR components, Redux Container are in the file.
 
 This project is created by using [react-vr](https://github.com/facebook/react-vr) CLI. So you can see the detail information of the example by checking the project.
-
-test
 
 ## Screen shots
 ![Tokyo Screen Shot](screen-shots/tokyo.png)
